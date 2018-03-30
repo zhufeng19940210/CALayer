@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF34978B20671A5000778090 /* LIziViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF34978920671A5000778090 /* LIziViewController.m */; };
+		BF34978C20671A5000778090 /* LIziViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF34978A20671A5000778090 /* LIziViewController.xib */; };
+		BF34978F20671B0800778090 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF34978E20671B0800778090 /* DrawView.m */; };
+		BF9487E7206EACDF00AC5B27 /* ZFQQNianxinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9487E5206EACDF00AC5B27 /* ZFQQNianxinViewController.m */; };
+		BF9487E8206EACDF00AC5B27 /* ZFQQNianxinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9487E6206EACDF00AC5B27 /* ZFQQNianxinViewController.xib */; };
+		BF9487EB206EAD0000AC5B27 /* GoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9487EA206EAD0000AC5B27 /* GoodView.m */; };
+		BF9A39CB206D5B7900D5E8BA /* ZFDaoyinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9A39C9206D5B7900D5E8BA /* ZFDaoyinViewController.m */; };
+		BF9A39CC206D5B7900D5E8BA /* ZFDaoyinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9A39CA206D5B7900D5E8BA /* ZFDaoyinViewController.xib */; };
 		BFA06E5F2066AF0600C38F31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA06E5E2066AF0600C38F31 /* AppDelegate.m */; };
 		BFA06E622066AF0600C38F31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA06E612066AF0600C38F31 /* ViewController.m */; };
 		BFA06E652066AF0600C38F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA06E632066AF0600C38F31 /* Main.storyboard */; };
 		BFA06E672066AF0600C38F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA06E662066AF0600C38F31 /* Assets.xcassets */; };
 		BFA06E6A2066AF0600C38F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA06E682066AF0600C38F31 /* LaunchScreen.storyboard */; };
 		BFA06E6D2066AF0600C38F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA06E6C2066AF0600C38F31 /* main.m */; };
+		BFA06E7B2066C54900C38F31 /* CoreAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA06E792066C54900C38F31 /* CoreAnimationController.m */; };
+		BFA06E7C2066C54900C38F31 /* CoreAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA06E7A2066C54900C38F31 /* CoreAnimationController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF34978820671A5000778090 /* LIziViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIziViewController.h; sourceTree = "<group>"; };
+		BF34978920671A5000778090 /* LIziViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIziViewController.m; sourceTree = "<group>"; };
+		BF34978A20671A5000778090 /* LIziViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LIziViewController.xib; sourceTree = "<group>"; };
+		BF34978D20671B0800778090 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		BF34978E20671B0800778090 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		BF9487E4206EACDF00AC5B27 /* ZFQQNianxinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFQQNianxinViewController.h; sourceTree = "<group>"; };
+		BF9487E5206EACDF00AC5B27 /* ZFQQNianxinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFQQNianxinViewController.m; sourceTree = "<group>"; };
+		BF9487E6206EACDF00AC5B27 /* ZFQQNianxinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZFQQNianxinViewController.xib; sourceTree = "<group>"; };
+		BF9487E9206EAD0000AC5B27 /* GoodView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodView.h; sourceTree = "<group>"; };
+		BF9487EA206EAD0000AC5B27 /* GoodView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodView.m; sourceTree = "<group>"; };
+		BF9A39C8206D5B7900D5E8BA /* ZFDaoyinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFDaoyinViewController.h; sourceTree = "<group>"; };
+		BF9A39C9206D5B7900D5E8BA /* ZFDaoyinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFDaoyinViewController.m; sourceTree = "<group>"; };
+		BF9A39CA206D5B7900D5E8BA /* ZFDaoyinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZFDaoyinViewController.xib; sourceTree = "<group>"; };
 		BFA06E5A2066AF0600C38F31 /* CALayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA06E5D2066AF0600C38F31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFA06E5E2066AF0600C38F31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +49,9 @@
 		BFA06E692066AF0600C38F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA06E6B2066AF0600C38F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFA06E6C2066AF0600C38F31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFA06E782066C54900C38F31 /* CoreAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAnimationController.h; sourceTree = "<group>"; };
+		BFA06E792066C54900C38F31 /* CoreAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationController.m; sourceTree = "<group>"; };
+		BFA06E7A2066C54900C38F31 /* CoreAnimationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAnimationController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +65,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF34978720671A1A00778090 /* 粒子效果 */ = {
+			isa = PBXGroup;
+			children = (
+				BF34978820671A5000778090 /* LIziViewController.h */,
+				BF34978920671A5000778090 /* LIziViewController.m */,
+				BF34978A20671A5000778090 /* LIziViewController.xib */,
+				BF34978D20671B0800778090 /* DrawView.h */,
+				BF34978E20671B0800778090 /* DrawView.m */,
+			);
+			path = "粒子效果";
+			sourceTree = "<group>";
+		};
+		BF9487E3206EACC100AC5B27 /* QQ粘性 */ = {
+			isa = PBXGroup;
+			children = (
+				BF9487E4206EACDF00AC5B27 /* ZFQQNianxinViewController.h */,
+				BF9487E5206EACDF00AC5B27 /* ZFQQNianxinViewController.m */,
+				BF9487E6206EACDF00AC5B27 /* ZFQQNianxinViewController.xib */,
+				BF9487E9206EAD0000AC5B27 /* GoodView.h */,
+				BF9487EA206EAD0000AC5B27 /* GoodView.m */,
+			);
+			path = "QQ粘性";
+			sourceTree = "<group>";
+		};
+		BF9A39C7206D5B4B00D5E8BA /* 倒影效果 */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A39C8206D5B7900D5E8BA /* ZFDaoyinViewController.h */,
+				BF9A39C9206D5B7900D5E8BA /* ZFDaoyinViewController.m */,
+				BF9A39CA206D5B7900D5E8BA /* ZFDaoyinViewController.xib */,
+			);
+			path = "倒影效果";
+			sourceTree = "<group>";
+		};
 		BFA06E512066AF0600C38F31 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +118,10 @@
 		BFA06E5C2066AF0600C38F31 /* CALayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BF9487E3206EACC100AC5B27 /* QQ粘性 */,
+				BF9A39C7206D5B4B00D5E8BA /* 倒影效果 */,
+				BF34978720671A1A00778090 /* 粒子效果 */,
+				BFA06E772066C51100C38F31 /* CoreAnimation */,
 				BFA06E5D2066AF0600C38F31 /* AppDelegate.h */,
 				BFA06E5E2066AF0600C38F31 /* AppDelegate.m */,
 				BFA06E602066AF0600C38F31 /* ViewController.h */,
@@ -69,6 +133,16 @@
 				BFA06E6C2066AF0600C38F31 /* main.m */,
 			);
 			path = CALayerDemo;
+			sourceTree = "<group>";
+		};
+		BFA06E772066C51100C38F31 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BFA06E782066C54900C38F31 /* CoreAnimationController.h */,
+				BFA06E792066C54900C38F31 /* CoreAnimationController.m */,
+				BFA06E7A2066C54900C38F31 /* CoreAnimationController.xib */,
+			);
+			path = CoreAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +203,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9487E8206EACDF00AC5B27 /* ZFQQNianxinViewController.xib in Resources */,
 				BFA06E6A2066AF0600C38F31 /* LaunchScreen.storyboard in Resources */,
+				BFA06E7C2066C54900C38F31 /* CoreAnimationController.xib in Resources */,
+				BF9A39CC206D5B7900D5E8BA /* ZFDaoyinViewController.xib in Resources */,
+				BF34978C20671A5000778090 /* LIziViewController.xib in Resources */,
 				BFA06E672066AF0600C38F31 /* Assets.xcassets in Resources */,
 				BFA06E652066AF0600C38F31 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +221,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA06E622066AF0600C38F31 /* ViewController.m in Sources */,
+				BF9A39CB206D5B7900D5E8BA /* ZFDaoyinViewController.m in Sources */,
+				BFA06E7B2066C54900C38F31 /* CoreAnimationController.m in Sources */,
+				BF34978F20671B0800778090 /* DrawView.m in Sources */,
+				BF9487E7206EACDF00AC5B27 /* ZFQQNianxinViewController.m in Sources */,
+				BF9487EB206EAD0000AC5B27 /* GoodView.m in Sources */,
+				BF34978B20671A5000778090 /* LIziViewController.m in Sources */,
 				BFA06E6D2066AF0600C38F31 /* main.m in Sources */,
 				BFA06E5F2066AF0600C38F31 /* AppDelegate.m in Sources */,
 			);

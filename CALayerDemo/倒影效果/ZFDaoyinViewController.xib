@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZFDaoyinViewController">
+            <connections>
+                <outlet property="myView" destination="hHx-OM-xTh" id="hMb-gg-8tD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHx-OM-xTh">
+                    <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="jIh-s0-wCq">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="72c-rb-QnC"/>
+                        <constraint firstAttribute="bottom" secondItem="jIh-s0-wCq" secondAttribute="bottom" id="Wp1-6g-Oth"/>
+                        <constraint firstItem="jIh-s0-wCq" firstAttribute="top" secondItem="hHx-OM-xTh" secondAttribute="top" id="gaP-Lp-Rfu"/>
+                        <constraint firstItem="jIh-s0-wCq" firstAttribute="leading" secondItem="hHx-OM-xTh" secondAttribute="leading" id="jPX-sw-gbL"/>
+                        <constraint firstAttribute="trailing" secondItem="jIh-s0-wCq" secondAttribute="trailing" id="jVq-VK-3Y1"/>
+                        <constraint firstAttribute="height" constant="200" id="zdn-3m-vsH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hHx-OM-xTh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CVu-Mv-ucJ"/>
+                <constraint firstItem="hHx-OM-xTh" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Jz2-uq-Y2E"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="200" height="200"/>
+    </resources>
+</document>
